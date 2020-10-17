@@ -59,5 +59,35 @@ body {
     display: block;
 }
 
+.contenido {
+    display: block;
+    padding: 1px;
+    margin: 20px 130px;
+    border-radius: 6px;
+    border: 1px solid #008EC4 ;
+    background-color: white;
+}
 
+.contenido div {
+    margin: 0px 10px;
+}
 
+h2, h3, p {
+    font-family: Helvetica;
+}
+
+pre {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0px 0px;
+    margin: 0px 130px;
+    background-color: rgb(240, 240, 240);
+}
+
+var {
+    color:orangered;
+}
+
+.comentario {
+    color: rgb(92, 92, 92);
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tutorial de JavaScript</title>
+        <link rel="stylesheet" href="estilos.css" type="text/css">
+        <link rel="shortcut icon" href="./pictures/js-logo.png">
+    </head>
+    <body>
+        <h1 id="tituloPrincipal">Tutorial de JavaScript</h1>
+
+        <div id="barNav">
+            <ul class="opcNav">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a class="submenu">Temas</a>
+                    <div class="submenuCont">
+                        <a href="">Variables</a>
+                        <a href="">Objetos</a>
+                    </div>
+                </li>
+                <li><a href="soporte.html">Soporte</a></li>
+            </ul> 
+        </div>
+
+        <div class="contenido">
+            <div>
+                <h2>Definición de variables</h2>
+                <p>
+                    Tanto en JavaScript como en otros lenguajes contamos con la presencia de los contenedores de dato, conocidos mejor como <strong>"Variables"</strong>  o <strong>"Constantes"</strong> que pueden almacenar tipos de datos como letras, números o caracteres especiales para ser reutilizados mas adelante.
+                </p>
+            </div>
+            <div>
+                <p>
+                    A simple vista todas son similares y pareciera que cumplen la misma funcion, pero si las analizamos mas detalladamente nos daremos cuenta que no es asi. 
+                    <br/><br/>Comencemos en como definirlas:
+                </p>
+                <div id="defVar"></div>
+
+                <h3>¿Cuáles son sus diferencias?</h3>
+                <p>
+                    Una <var>var</var> es un contenedor de dato que justamentente, como su nombre lo indica, su valor puede variar a lo largo del programa. Ésta a diferencia de sus variantes tiene un alcance global. En cambio con <var>const</var> o <var>let</var> tienen un uso mas lógico y valen solo dentro de las llaves de bucle o funcion donde fueron creadas.
+                </p>
+            </div>
+        </div>
+
+        <script src="js/variables.js"></script>
+    </body>
+</html>
