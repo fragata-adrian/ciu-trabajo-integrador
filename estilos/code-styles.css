@@ -1,0 +1,24 @@
+pre {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0px 0px;
+    margin: 20px 130px;
+    background-color: rgb(240, 240, 240);
+}
+
+var {
+    color:orangered;
+    
+}
+
+.referencia {
+    color: rgb(24, 98, 236);
+}
+
+.comentario {
+    color: rgb(92, 92, 92);
+}
+
+.consola {
+    color: rgb(rgb(139, 139, 139), green, blue);
+}

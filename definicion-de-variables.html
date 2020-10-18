@@ -3,7 +3,8 @@
     <head>
         <meta charset="utf-8">
         <title>Tutorial de JavaScript</title>
-        <link rel="stylesheet" href="estilos.css" type="text/css">
+        <link rel="stylesheet" href="estilos/base.css" type="text/css">
+        <link rel="stylesheet" href="estilos/code-styles.css" type="text/css">
         <link rel="shortcut icon" href="./pictures/js-logo.png">
     </head>
     <body>
@@ -38,7 +39,19 @@
 
                 <h3>¿Cuáles son sus diferencias?</h3>
                 <p>
-                    Una <var>var</var> es un contenedor de dato que justamentente, como su nombre lo indica, su valor puede variar a lo largo del programa. Ésta a diferencia de sus variantes tiene un alcance global. En cambio con <var>const</var> o <var>let</var> tienen un uso mas lógico y valen solo dentro de las llaves de bucle o funcion donde fueron creadas.
+                    Si utilizamos <var>var</var> o <var>let</var> podemos crearlas sin darles un valor inicial y dicho valor puede variarse a lo largo del programa. En cambio, con <var>const</var> hay que darle un valor inicial que no se podra cambiar.
+                    Otra diferencia a destacar es que con <var>var</var> la variable es global cuando con <var>const</var> o <var>let</var> es más lógico y vale solo dentro de las llaves de bucle o función.
+                    <br/><br/>Veámoslo en funcionamiento:
+                </p>
+
+                <div id="diferencias"></div>
+
+                <p>¿Qué nos devuelve en la consola?:</p>
+
+                <div id="diferenciasRetorno"></div>
+
+                <p>
+                    Como podemos notar la variable <span class="referencia">auto</span> al definirla con <var>var</var> a cambiado, pero en cambio la variable <span class="referencia">moto</span> que definimos con <var>let</var> mantuvo su valor. Esto se debe a que si definimos una variable dentro de un bucle o función con <var>let</var> esta se vuelve independiente a la variable externa aunque lleven el mismo nombre.
                 </p>
             </div>
         </div>

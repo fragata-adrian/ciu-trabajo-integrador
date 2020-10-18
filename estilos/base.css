@@ -74,20 +74,12 @@ body {
 
 h2, h3, p {
     font-family: Helvetica;
+    margin: 15px 5px;
+    padding: 2px;
 }
 
-pre {
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 0px 0px;
-    margin: 0px 130px;
-    background-color: rgb(240, 240, 240);
+p {
+    margin: 10px 25px;
+    line-height: 22px;
 }
 
-var {
-    color:orangered;
-}
-
-.comentario {
-    color: rgb(92, 92, 92);
-}

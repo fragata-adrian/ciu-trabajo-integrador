@@ -1,32 +1,7 @@
-// Diferencia entre var - let y const
-// Con var la variable es global. 
-// Con let y const es más lógico y vale solo dentro de las llaves
-// de bucle o función. 
-console.log ("Definición de variables");
 
-// Si uso var o let puedo crearla sin inicializarla
-// si uso const tengo que darle un valor inicial
-// que no se podrá cambiar.
-const bicicleta = "Playera";
-
-// O crearla con valor inicial
-var auto = "Ferrari";
-let moto = "Ducati";
-
-
-if (auto) {
-    var auto = "Porsche";
-    console.log ('Adentro del if: ', auto);
-};
-console.log ('Afuera del if:', auto);
-
-
-if (moto) {
-    let moto = "Yamaha";
-    console.log ('Adentro del if: ', moto);
-};
-
-console.log ('Afuera del if:', moto);
+/////////////////////
+// Como definirlas
+/////////////////////
 
 const defVar = document.querySelector('#defVar');
 let variables = ''
@@ -41,9 +16,64 @@ variables += `
     <var>const</var> miConstante = 10;
 
     <span class="comentario">// let que es una variable con algo especial que veremos mas adelante</span>
-    <var>let</var> miVarEspecial = "¿otro valor?";
+    <var>let</var> miVarEspecial = "otro valor";
 </code>
 </pre>
 `;
 
 defVar.innerHTML = variables;
+
+/////////////////////////////////////
+// Diferencia entre var - let y const
+/////////////////////////////////////
+
+const diferenciasContenedor = document.querySelector("#diferencias");
+let diferenciasHTML = '';
+
+diferenciasHTML += `
+<pre>
+<code>
+    <var>var</var> auto = "Ferrari";
+    <var>let</var> moto = "Ducati";
+    
+    
+    <var>if</var> (<span class="referencia">auto</span>) {
+        <var>var</var> auto = "Porsche";
+        <span class="comentario">// Mostramos por consola el valor de la variable auto adentro del if.</span>
+        console.log ('Adentro del if: ', <span class="referencia">auto</span>);
+    };
+    <span class="comentario">// Mostramos por consola el valor de la variable auto afuera del if.</span>
+    console.log ('Afuera del if:', <span class="referencia">auto</span>);
+    
+    
+    <var>if</var> (<span class="referencia">moto</span>) {
+        <var>let</var> moto = "Yamaha";
+
+        <span class="comentario">// Mostramos por consola el valor de la variable moto adentro del if.</span>
+        console.log ('Adentro del if: ', <span class="referencia">moto</span>);
+    };
+
+    <span class="comentario">// Mostramos por consola el valor de la variable moto afuera del if.</span>
+    console.log ('Afuera del if:', <span class="referencia">moto</span>);
+</code>
+</pre>
+`;
+diferenciasContenedor.innerHTML = diferenciasHTML;
+
+// Retorno
+
+const diferenciasRetornoContenedor = document.querySelector("#diferenciasRetorno");
+let retornoDiferenciasHTML = '';
+
+retornoDiferenciasHTML += `
+<pre>
+<code>
+    > Adentro del if:  Porsche
+    > Afuera del if: Porsche
+    > Adentro del if:  Yamaha
+    > Afuera del if: Ducati
+</code>
+</pre>
+`;
+
+diferenciasRetornoContenedor.innerHTML = retornoDiferenciasHTML;
