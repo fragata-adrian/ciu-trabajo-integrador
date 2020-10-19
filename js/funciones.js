@@ -71,11 +71,11 @@ const funReturnContenedor = document.querySelector("#funReturn");
 let funReturnHTML = `
 <pre>
     <code>
-        <span class="var">function</span> sumar(<span class="referencia">a</span>, <span class="referencia">b</span>) {
-            <span class="var">return</span> <span class="referencia">a</span> + <span class="referencia">b</span>;
-        }
-
-        console.log(<span class="referencia">sumar</span>(<span class="num">2</span>, <span class="num">5</span>));
+    <span class="var">function</span> sumar(<span class="referencia">a</span>, <span class="referencia">b</span>) {
+        <span class="var">return</span> <span class="referencia">a</span> + <span class="referencia">b</span>;
+    }
+    
+    console.log(<span class="referencia">sumar</span>(<span class="num">2</span>, <span class="num">5</span>));
     </code>
 </pre>
 `;
@@ -97,7 +97,7 @@ const consoleReturnContenedor = document.querySelector("#consoleReturn");
 let consoleReturnHTML = `
 <pre>
     <code>
-        > 7
+    > 7
     </code>
 </pre>
 `;

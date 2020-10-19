@@ -38,6 +38,10 @@ body {
 
 }
 
+.nav {
+    padding: 0px 15px;
+}
+
 .nav > li {
     float: left;
 }

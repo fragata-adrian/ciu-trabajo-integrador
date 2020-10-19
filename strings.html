@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tutorial de JavaScript</title>
+        <link rel="stylesheet" href="estilos/base.css" type="text/css">
+        <link rel="stylesheet" href="estilos/code-styles.css" type="text/css">
+        <link rel="shortcut icon" href="./pictures/js-logo.png">
+    </head>
+    <body>
+        <h1 id="tituloPrincipal">Tutorial de JavaScript</h1>
+
+        <div id="barNav">
+			<ul class="nav">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="">Temas</a>
+					<ul>
+						<li><a href="variables.html">Variables</a></li>
+						<li><a href="funciones.html">Funciones</a></li>
+						<li><a href="strings.html">Representacion de Strings</a></li>
+						<li><a href="">Submenu4</a></li>
+					</ul>
+				</li>
+				<li><a href="soporte.html">Soporte</a></li>
+            </ul>
+        </div>
+
+        <div class="contenido">
+            <h3>Representacion de strings</h3>
+            <p>
+                JavaScript nos ofrece diferentes modos de representar strings, pero hay que tener cuidado con el tipo de comillas que utilizamos. Veamos el siguiente ejemplo en donde vamos a definir dos variables <span class="referencia">nombre</span> y <span class="referencia">posición</span> y le asignamos a cada una un string:
+            </p>
+
+            <div id="codeString"></div>
+            <div id="consoleString"></div>
+
+            <p>
+                El el <strong>primer caso</strong> se concatenó las variables <span class="referencia">nombre</span> y <span class="referencia">posicion</span> con el string <span class="string">"juega de"</span> utilizando el signo "+" y se muertra correctamente por consola.
+            </p>
+            <p>
+                En el <strong>segundo caso</strong> llamamos a las variables utilizando <span class="referencia">${ }</span> pero notamos que no salio como esperabamos; JavaScript nos convirtio todo a string en lugar de tomar los valores de las variables. Esto se debe a que utilizamos las comillas dobles ("..").
+            </p>
+            <p>
+                En el <strong>Tercer caso</strong> y solucionando el problema del caso anterior utilizamos las comillas simples ('..') y vemos que JavaScript en este caso nos trajo los valores como esperabamos.
+            </p>
+
+        </div>
+        <script src="js/strings.js"></script>
+    </body>
+</html>
