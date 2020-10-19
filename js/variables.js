@@ -10,13 +10,13 @@ variables += `
 <pre>
 <code>
     <span class="comentario">// Variable</span>
-    <var>var</var> miVariable = "un valor";
+    <span class="var">var</span> miVariable = "un valor";
 
     <span class="comentario">// Constante</span>
-    <var>const</var> miConstante = 10;
+    <span class="var">const</span> miConstante = 10;
 
     <span class="comentario">// let que es una variable con algo especial que veremos mas adelante</span>
-    <var>let</var> miVarEspecial = "otro valor";
+    <span class="var">let</span> miVarEspecial = "otro valor";
 </code>
 </pre>
 `;
@@ -33,28 +33,28 @@ let diferenciasHTML = '';
 diferenciasHTML += `
 <pre>
 <code>
-    <var>var</var> auto = "Ferrari";
-    <var>let</var> moto = "Ducati";
+    <span class="var">var</span> auto = <span class="string">"Ferrari"</span>;
+    <span class="var">let</span> moto = <span class="string">"Ducati"</span>;
     
     
-    <var>if</var> (<span class="referencia">auto</span>) {
-        <var>var</var> auto = "Porsche";
+    <span class="var">if</span> (<span class="referencia">auto</span>) {
+        <span class="var">var</span> auto = <span class="string">"Porsche"</span>;
         <span class="comentario">// Mostramos por consola el valor de la variable auto adentro del if.</span>
-        console.log ('Adentro del if: ', <span class="referencia">auto</span>);
+        console.log (<span class="string">'Adentro del if: '</span>, <span class="referencia">auto</span>);
     };
     <span class="comentario">// Mostramos por consola el valor de la variable auto afuera del if.</span>
-    console.log ('Afuera del if:', <span class="referencia">auto</span>);
+    console.log (<span class="string">'Afuera del if:'</span>, <span class="referencia">auto</span>);
     
     
-    <var>if</var> (<span class="referencia">moto</span>) {
-        <var>let</var> moto = "Yamaha";
+    <span class="var">if</span> (<span class="referencia">moto</span>) {
+        <span class="var">let</span> moto = <span class="string">"Yamaha"</span>;
 
         <span class="comentario">// Mostramos por consola el valor de la variable moto adentro del if.</span>
-        console.log ('Adentro del if: ', <span class="referencia">moto</span>);
+        console.log (<span class="string">'Adentro del if: '</span>, <span class="referencia">moto</span>);
     };
 
     <span class="comentario">// Mostramos por consola el valor de la variable moto afuera del if.</span>
-    console.log ('Afuera del if:', <span class="referencia">moto</span>);
+    console.log (<span class="string">'Afuera del if:'</span>, <span class="referencia">moto</span>);
 </code>
 </pre>
 `;

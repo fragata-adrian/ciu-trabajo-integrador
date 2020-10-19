@@ -6,17 +6,24 @@ pre {
     background-color: rgb(240, 240, 240);
 }
 
-var {
+.var {
     color:orangered;
-    
+}
+
+.comentario {
+    color: rgb(92, 92, 92);
 }
 
 .referencia {
     color: rgb(24, 98, 236);
 }
 
-.comentario {
-    color: rgb(92, 92, 92);
+.string {
+    color: green;
+}
+
+.num {
+    color: red;
 }
 
 .consola {
