@@ -106,11 +106,3 @@ let consoleOtroObjHTML = `
 `;
 
 consoleOtroObj.innerHTML = consoleOtroObjHTML;
-
-/*
-<pre>
-<code>
-
-</code>
-</pre>
-*/
