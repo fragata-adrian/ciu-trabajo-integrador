@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tutorial de JavaScript</title>
+        <link rel="stylesheet" href="estilos/base.css" type="text/css">
+        <link rel="stylesheet" href="estilos/code-styles.css" type="text/css">
+        <link rel="shortcut icon" href="./pictures/js-logo.png">
+    </head>
+    <body>
+        <h1 id="tituloPrincipal">Tutorial de JavaScript</h1>
+
+        <div id="barNav">
+			<ul class="nav">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="">Temas</a>
+					<ul>
+						<li><a href="variables.html">Variables</a></li>
+						<li><a href="funciones.html">Funciones</a></li>
+						<li><a href="strings.html">Representacion de Strings</a></li>
+						<li><a href="">Submenu4</a></li>
+					</ul>
+				</li>
+				<li><a href="soporte.html">Soporte</a></li>
+            </ul>
+        </div>
+        <div class="contenido">
+            <h2>Object Literal</h2>
+            <p>
+                Un object literal de JavaScript es una lista separada por comas de pares de <strong>nombre-valor</strong> (nombre: valor) envueltos en llaves. Los literales de objeto encapsulan los datos, encerrándolos en un paquete ordenado. Esto minimiza el uso de variables globales que pueden causar problemas al combinar código.
+            </p>
+
+            <h3>Pero.. ¿Como definimos objetos en JavaScript?</h3>
+            
+            <div id="defObjL"></div>
+            <div id="consoleObjL"></div>
+
+            <p>Tambien podemos acceder a los valores del objeto:</p>
+            <div id="valoresObj"></div>
+            <div id="consoleValoresObjL"></div>
+
+            <h3>No todo lo que brilla es oro</h3>
+            <p>
+                La mayor desventaja que tiene Object Literal es que nos permite usar un valor por cada variable, por lo tanto, si necesito un  objeto distinto pero con la misma estructura, tengo que crear otro objeto:
+            </p>
+            <div id="otroObj"></div>
+            <div id="consoleOtroObj"></div>
+        </div>
+        <script src="js/5-object-literal.js"></script>
+    </body>
+</html>
