@@ -46,16 +46,4 @@ let consoleObjCHTML = `
 
 consoleObjC.innerHTML = consoleObjCHTML;
 
-/*
-const = document.querySelector("#");
-let = `
-<pre>
-<code>
 
-</code>
-</pre>
-`;
-
-.innerHTML = ;
-
-*/
