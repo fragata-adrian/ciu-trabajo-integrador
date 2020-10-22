@@ -50,16 +50,3 @@ let consolePrototypesHTML = `
 
 consolePrototypes.innerHTML = consolePrototypesHTML;
 
-/*
-const = document.querySelector("#");
-let = `
-<pre>
-<code>
-
-</code>
-</pre>
-`;
-
-.innerHTML = ;
-
-*/

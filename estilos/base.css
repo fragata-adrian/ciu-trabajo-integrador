@@ -80,6 +80,11 @@ body {
     top:0px;
 }
 
+.nav li ul li ul li {
+    min-width:210px;
+}
+
+
 .contenido {
     display: block;
     padding: 1px;
