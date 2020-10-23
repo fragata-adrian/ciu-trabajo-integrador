@@ -116,17 +116,3 @@ const obiWan = {
 } 
 
 console.log(Object.keys(obiWan));
-/*
-
-const = document.querySelector("#");
-let = `
-<pre>
-<code>
-
-</code>
-</pre>
-`;
-
-.innerHTML = ;
-
-*/
