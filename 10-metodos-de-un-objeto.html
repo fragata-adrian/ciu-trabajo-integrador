@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tutorial de JavaScript</title>
+        <link rel="stylesheet" href="estilos/base.css" type="text/css">
+        <link rel="stylesheet" href="estilos/code-styles.css" type="text/css">
+        <link rel="shortcut icon" href="./pictures/js-logo.png">
+    </head>
+    <body>
+        <h1 id="tituloPrincipal">Tutorial de JavaScript</h1>
+
+        <div id="barNav">
+			<ul class="nav">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="">Temas</a>
+					<ul>
+						<li><a href="variables.html">Variables</a></li>
+						<li><a href="funciones.html">Funciones</a></li>
+						<li><a href="strings.html">Representacion de Strings</a></li>
+						<li><a href="">Submenu4</a></li>
+					</ul>
+				</li>
+				<li><a href="soporte.html">Soporte</a></li>
+            </ul>
+        </div>
+        <div class="contenido">
+            <h2>Creando Metodos de un Objeto</h2>
+            <p>
+                Cuando creamos un objeto podemos agregarle tambien funciones propias en la descripcion, aparte de los atributos, generando asi metodos a ese objeto.<br/>
+                Un dato a tener en cuenta es que si usamos "<span class="var">this</span>" al momento de referenciar a algun atributo del objeto no tenemos que pasarle parametros a la funcion, los toma de la descripcion del mismo. Tampoco es necesario usar la palabra reservada <span class="var">function</span>.
+            </p>
+            <div id="metodos"></div>
+            <div id="consoleMetodos"></div>
+
+            <p>Tambien podria haber usado la siguiente expresion y funcionaria de la misma forma:</p>
+            <div id="extra"></div>
+        </div>
+        <script src="js/10-metodos-de-un-objeto.js"></script>
+    </body>
+</html>

@@ -94,17 +94,3 @@ consoleOLE.innerHTML = consoleOLEHTML;
 
 
 
-/*
-
-const = document.querySelector("#");
-let = `
-<pre>
-<code>
-
-</code>
-</pre>
-`;
-
-.innerHTML = ;
-
-*/
