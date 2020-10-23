@@ -57,17 +57,3 @@ let extraHTML= `
 
 extra.innerHTML = extraHTML;
 
-/*
-
-const = document.querySelector("#");
-let = `
-<pre>
-<code>
-
-</code>
-</pre>
-`;
-
-.innerHTML = ;
-
-*/

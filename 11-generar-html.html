@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tutorial de JavaScript</title>
+        <link rel="stylesheet" href="estilos/base.css" type="text/css">
+        <link rel="stylesheet" href="estilos/code-styles.css" type="text/css">
+        <link rel="shortcut icon" href="./pictures/js-logo.png">
+    </head>
+    <body>
+        <h1 id="tituloPrincipal">Tutorial de JavaScript</h1>
+
+        <div id="barNav">
+			<ul class="nav">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="">Temas</a>
+					<ul>
+						<li><a href="variables.html">Variables</a></li>
+						<li><a href="funciones.html">Funciones</a></li>
+						<li><a href="strings.html">Representacion de Strings</a></li>
+						<li><a href="">Submenu4</a></li>
+					</ul>
+				</li>
+				<li><a href="soporte.html">Soporte</a></li>
+            </ul>
+        </div>
+        <div class="contenido">
+            <h2>Generar HTML con JavaScript</h2>
+            <p>
+                Para generar contenido html a través de JavaScript lo primero que debemos buscar es el "contenedor" donde queremos que se coloque el contenido y luego generar dicho contenido html. Por lo tanto siempre debemos recordar la regla "contenedor/contenido".<br/><br/>
+
+                Veamos la forma tradicional:
+            </p>
+            <div id="tradicional"></div>
+
+            <p>Ahora veamos con el <span class="var">.map</span> que es mucho mas simple</p>
+            <div id="map"></div>
+
+            <p>En ambos casos nos quedaria de la siguiente manera:</p>
+            <div>
+                <img class="imgResultado" src="pictures/generar-html-resultado.png" alt="Imagen con el resultado">
+            </div>
+
+            <p>
+                Hay veces que necesito traer el valor de las claves, no el contenido de las mismas, para eso uso <strong>Object Keys</strong>. <br/>
+                Veamos sobre el ejemplo de Obi Wan:
+            </p>
+
+            <div id="ObjK"></div>
+            <div id="consoleObjK"></div>
+        </div>
+
+        <script src="js/11-generar-html.js"></script>
+    </body>
+</html>
