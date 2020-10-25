@@ -323,19 +323,3 @@ let consoleReduceHTML= `
 
 consoleReduce.innerHTML = consoleReduceHTML;
 
-
-/*
-
-const = document.querySelector("#");
-let = `
-<pre>
-<code>
-
-</code>
-</pre>
-`;
-
-.innerHTML = ;
-
-*/
-

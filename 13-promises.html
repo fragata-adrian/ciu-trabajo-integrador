@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tutorial de JavaScript</title>
+        <link rel="stylesheet" href="estilos/base.css" type="text/css">
+        <link rel="stylesheet" href="estilos/code-styles.css" type="text/css">
+        <link rel="shortcut icon" href="./pictures/js-logo.png">
+    </head>
+    <body>
+        <h1 id="tituloPrincipal">Tutorial de JavaScript</h1>
+
+        <div id="barNav"></div>
+
+        <div class="contenido">
+            <h2>Promises</h2>
+            <p>
+                Las promises se utilizan para escribir código asincrónico, es decir, tareas que no tienen un resultado inmediato. Cuando hacés un pedido asincrónico a una API tenés dos posibilidades: <br/>
+                1 - Que salga todo bien "<strong>resolve</strong>".<br/>
+                2 - Que algo salga mal "<strong>reject</strong>". 
+            </p>
+            <p>Simulemos una consulta con timeout y error:</p>
+            <div id="simulada"></div>
+            <div id="consoleSimulada"></div>
+
+            <p>
+                En el caso anterior si vamos a la consola vemos que el estado es "pendiente" eso quiere decir que venimos planteando bien pero no estamos listxs todavía. Pasemos al siguiente paso:
+            </p>
+            <div id="simulada2"></div>
+            <div id="consoleSimulada2"></div>
+
+            <h3>Ahora con un ejemplo real:</h3>
+            <p>LA API es pública de randomuser.me/api que te baja un JSON con usuarios random.</p>
+            <div id="real"></div>
+            <div id="consoleReal"></div>
+
+            <p>
+                Ahora veamos cómo se puede recorrer el array para que nos muestre cada registro. Cambio primero la <strong>traerUser</strong> y le asigno la salida a una función <strong>generarHTML</strong> en lugar de tirarlos a la consola:
+            </p>
+            <div id="mostrar"></div>
+
+            <p>Y nuestro archivo html es algo asi:</p>
+            <div id="htmlMostrar"></div>
+
+            <p>Y si abrimos el html en nuestro navegador:</p>
+            <div>
+                <img class="imgResultado" src="pictures/users.png" alt="Una pagina con datos de usuarios y sus fotos de perfil">
+            </div>
+
+
+        </div>
+        <script src="js/13-promises.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>
