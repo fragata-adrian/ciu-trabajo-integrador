@@ -1,3 +1,5 @@
+// Barra de navegacion
+
 const barNav = document.querySelector("#barNav");
 const nav = `
 <ul class="nav">
@@ -25,7 +27,7 @@ const nav = `
                     <li><a href="13-promises.html">Promises</a></li>
                 </ul>
             </li>
-            <li><a href="soporte.html">Tercera Unidad</a></li>
+            <li><a href="">Tercera Unidad</a></li>
 		</ul>
 	</li>
 </ul>
