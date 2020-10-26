@@ -127,17 +127,16 @@ let herenciaHTML= `
 
 herencia.innerHTML = herenciaHTML;
 
-/*
+// Console herencia
 
-const = document.querySelector("#");
-let = `
+const consoleHerencia= document.querySelector("#consoleHerencia");
+let consoleHerenciaHTML= `
 <pre>
 <code>
-
+    > La leyenda Javier Castrillo jugaba de El último 11
+    > Hola Javier Castrillo, fracasado!. Te vi una vez en los 80.
 </code>
 </pre>
 `;
 
-.innerHTML = ;
-
-*/
+consoleHerencia.innerHTML = consoleHerenciaHTML;
