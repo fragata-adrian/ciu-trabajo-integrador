@@ -209,19 +209,3 @@ let htmlMostrarHTML= `
 `;
 
 htmlMostrar.innerHTML = htmlMostrarHTML;
-
-
-/*
-
-const = document.querySelector("#");
-let = `
-<pre>
-<code>
-
-</code>
-</pre>
-`;
-
-.innerHTML = ;
-
-*/

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Tutorial de JavaScript</title>
+        <link rel="stylesheet" href="estilos/base.css" type="text/css">
+        <link rel="stylesheet" href="estilos/code-styles.css" type="text/css">
+        <link rel="shortcut icon" href="./pictures/js-logo.png">
+    </head>
+    <body>
+        <h1 id="tituloPrincipal">Tutorial de JavaScript</h1>
+
+        <div id="barNav"></div>
+
+        <div class="contenido">
+            <h2>POO (Programacion Orientada a Objetos)</h2>
+            <p>
+                Ya vimos como era el <a href="6-object-constructor.html">Object Constructor</a> que nos permitia crear varios objetos del mismo tipo. Pero ahora JavaScript soporta <strong>POO</strong> que es un paradigma de programación que utiliza objetos para modelar entidades del mundo real.
+            </p>
+
+            <div id="jugador"></div>
+            <div id="consoleJugador"></div>
+
+            <p>
+                Ahora vamos a crear otro objeto, pero ya con un método, no solo con atributos. Esto lo podemos ver desplegando la estructura y fijándose en Prototypes antes solo figuraba la clase:
+            </p>
+
+            <div id="leyenda"></div>
+            <div id="consoleLeyenda"></div>
+
+            <h3>Herencia</h3>
+            <p>
+                No descubrimos nada si decimos que la herencia es una de las características de las clases. Vamos a ver cómo aplicar la herencia en javaScript con la palabra reservada <strong><span class="var">extends</span></strong>. Ojo en la construcción, <strong>no hay que traer todos los <span class="var">this</span>.<span class="referencia">atributo</span></strong> porque te va a dar error, se superponen con "<strong><span class="num">super()</span></strong>" y luego se agregan los que querramos.
+            </p>
+            <div id="herencia"></div>
+        </div>
+
+        <script src="js/app.js"></script>
+        <script src="js/14-poo.js"></script>
+    </body>
+</html>
